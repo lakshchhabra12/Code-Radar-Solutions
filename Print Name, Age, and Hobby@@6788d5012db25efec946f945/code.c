@@ -2,6 +2,8 @@
 
 int main() {
     int a,b,c;
+    char a[100];
+    char c[100];
     scanf("%s",&a);
     scanf("%d",&b);
     scanf("%s",&c);
