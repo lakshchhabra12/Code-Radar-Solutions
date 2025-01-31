@@ -4,9 +4,9 @@ int main() {
     int num;
     scanf("%d",&num);
     if ((num % 5 == 0) || (num % 7 == 0)) {
-        printf("Divisible\n");
+        printf("Divisible");
     } else {
-        printf("Not Divisible\n");
+        printf("Not Divisible");
     }
     return 0;
 }
