@@ -2,10 +2,10 @@
 
 int main() {
     int a;
-    if (a < 18) {
-        printf("Not Eligible");
-    } else {
+    if (a >= 18) {
         printf("Eligible");
+    } else {
+        printf("Not Eligible");
     }
     return 0;
 }
