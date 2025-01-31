@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     scanff("%d",&b);
     scanf("%d",&c);
-    if (a + b > c) {
+    if ((a + b) > c)) {
         printf("Valid");
     } else {
         printf("Invalid");
