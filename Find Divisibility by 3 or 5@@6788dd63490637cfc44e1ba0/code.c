@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a ,&b);
+    int a;
+    scanf("%d",&a);
     if (a % 3 == 0) {
         printf("Divisible by 3");
     } else if (a % 5 == 0) {
