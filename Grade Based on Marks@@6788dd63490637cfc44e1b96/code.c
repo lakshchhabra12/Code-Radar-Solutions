@@ -12,7 +12,7 @@ int main() {
     } else if ((num >= 60) || (num < 70)) {
         printf("D");
     } else {
-        printf("F")
+        printf("F");
     }
     return 0;
 }
