@@ -5,13 +5,13 @@ int main() {
     char ch;
     scanf("%c",&ch);
     if (isdigit(ch)) {
-        printf("Digit\n");
+        printf("Digit");
     } else if (isalpha(ch)) {
-        ch = islower(ch);
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-            printf("Vowel\n");
+        lower = islower(ch);
+        if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
+            printf("Vowel");
         } else {
-            printf("Consonant\n");
+            printf("Consonant");
         }
     }else{
         printf("Speial Character");
