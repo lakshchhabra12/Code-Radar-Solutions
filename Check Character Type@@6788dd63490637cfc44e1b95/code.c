@@ -6,7 +6,7 @@ int main() {
     if (isdigit(ch)) {
         printf("Digit");
     } else if (isalpha(ch)) {
-        char lower = islower(ch);
+        char lower = tolower(ch);
         if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
             printf("Vowel");
         } else {
