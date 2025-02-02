@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     scanf("%d",&a);
-    c == b * b;
+    c = b * b;
     if (a == c) {
         printf(Yes);
     } else {
