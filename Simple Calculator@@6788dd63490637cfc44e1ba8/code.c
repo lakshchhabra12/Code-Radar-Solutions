@@ -5,13 +5,17 @@ int main() {
     char ch;
     scanf("%d %d %c",&a ,&b ,&ch);
     if (ch == '+') {
-        printf(a + b);
+        c = a + b;
+        printf("%d",c);
     } else if (ch == '-' ) {
-        printf(a - b);
+        c = a - b;
+        printf("%d",c);
     } else if (ch == '*' ) {
-        printf(a * b);
+        c = a * b;
+        printf(c);
     } else if (ch == '/' ) {
-        printf(a / b);
+        c = a / b;
+        printf(c);
     } else {
         printf("error")
     }
