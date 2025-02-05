@@ -5,9 +5,9 @@ int n;
 scanf("%d",&n);
 int sum = 0;
 for(i=1;i<=n;++i) {
-    sum1 = sum + i;
+    sum = sum + i;
 }
-printf("%d",sum1);
+printf("%d",sum);
 
 return 0;
 }
