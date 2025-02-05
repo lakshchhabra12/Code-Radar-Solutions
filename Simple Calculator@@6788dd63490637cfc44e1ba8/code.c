@@ -20,7 +20,7 @@ int main() {
         if b != 0 {
             c = a / b;
             printf("%d",c);
-    }
+        }
     } 
     else {
         printf("error");
