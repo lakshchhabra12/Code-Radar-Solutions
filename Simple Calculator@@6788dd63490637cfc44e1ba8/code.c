@@ -10,8 +10,10 @@ int main() {
         printf(a - b);
     } else if (ch == '*' ) {
         printf(a * b);
-    } else {
+    } else if (ch == '/' ) {
         printf(a / b);
+    } else {
+        printf("error")
     }
     return 0;
 }
