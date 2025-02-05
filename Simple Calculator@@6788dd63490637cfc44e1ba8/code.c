@@ -17,7 +17,7 @@ int main() {
         printf("%d",c);
     } 
     else if (ch == '/' ) {
-        if b != 0 {
+        if (b != 0) {
             c = a / b;
             printf("%d",c);
         } else {
