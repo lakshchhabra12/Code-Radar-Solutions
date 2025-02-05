@@ -8,7 +8,7 @@ int main() {
         printf(a + b);
     } else if (char ch == -) {
         printf(a - b);
-    } else if (char ch == *) {
+    } else if (char ch == * ) {
         printf(a * b);
     } else (char ch == /) {
         printf(a / b);
