@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char x = 5,y = 7;
+    char a = 5,b = 7;
     printf(a|b);
     return 0;
 }
