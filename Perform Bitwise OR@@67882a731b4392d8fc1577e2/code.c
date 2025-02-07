@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a = 5,b = 7;
-    printf(a|b);
+    int a = 5,b = 7;
+    printf("%d",a|b);
     return 0;
 }
