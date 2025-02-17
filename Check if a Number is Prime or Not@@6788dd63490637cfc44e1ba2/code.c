@@ -13,8 +13,6 @@ int main(){
         else {
             printf("Prime");
         }
-    } else {
-        printf("Prime");
     }
     return 0;
 }
